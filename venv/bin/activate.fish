@@ -33,7 +33,7 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/Users/norbulama/Documents/Coding/Django /Django Rest Framework/Test/venv"
+set -gx VIRTUAL_ENV "/Users/norbulama/Documents/Coding/Django /Django Rest Framework/REST Framework Tutorial/venv"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH

@@ -1,5 +1,5 @@
 #!/bin/sh
-'''exec' "/Users/norbulama/Documents/Coding/Django /Django Rest Framework/Test/venv/bin/python3.12" "$0" "$@"
+'''exec' "/Users/norbulama/Documents/Coding/Django /Django Rest Framework/REST Framework Tutorial/venv/bin/python3.12" "$0" "$@"
 ' '''
 # -*- coding: utf-8 -*-
 import re
