@@ -1,13 +1,13 @@
 import requests
 
 # endpoint = "https://httpbin.org/anything"
-endpoint = "http://localhost:8000/api/"
+endpoint = "http://localhost:8000/api/send/"
 
-get_response = requests.get(endpoint, 
-                    params={ 
-                    },
+get_response = requests.post(endpoint, 
                     json={
-                        "query": "Hello World"
+                        "title": "Title #1",
+                        "content": "Hello World",
+                        "price": 11.11
                     })
 
 print(get_response.status_code)
